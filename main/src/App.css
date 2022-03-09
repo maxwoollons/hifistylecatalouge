@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: jbfont;
+    src: url("font.otf") format("opentype");
+}
+
+
+.App {
+    font-family: jbfont;
+    
+    
+}
+
+
+body {
+    background-color: rgb(255,220,0);
+}
+
+.logo {
+    user-select: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.box {
+    width: 20vw;
+    
+    background-color: rgb(255, 255, 255); /* Box Colour */
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .box {
+        width: 40vw;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .box {
+        width: 100vw;
+    }
+  }
+
+
+
+.product-img {
+    width: 100%;
+}
+
+.title {
+    display: inline;
+}
