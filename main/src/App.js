@@ -38,7 +38,7 @@ function App() {
 
 return (
     <div className="App">
-     <div className='title'><img className='logo' src={require('./logo.png')} width="200px"/> <h1>Skater Tee Business Partner Catalouge</h1></div>
+     <div className='title'><h1>The T-Shirt Grind Catalouge</h1></div>
      <div className='flex-container'>
     {response.map((shirts, index)=>{
       return (
